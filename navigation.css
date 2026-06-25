@@ -1,0 +1,17 @@
+*{
+    padding:0;
+    margin:0;
+    color:aliceblue;
+
+}
+div{
+    background-color:black;
+    height:50px;
+}
+button{
+   background-color:rgba(230, 102, 4, 0.91)
+}
+#logo{
+    color:rgb(255, 111, 0);
+    font-size:25px;
+}

@@ -1,0 +1,24 @@
+h2 {
+    color : yellow;
+    font-size :34px;
+}
+p {
+    color:darkblue;
+}
+button {
+    color:springgreen;
+    background-color:black;
+}
+body{
+    /* background-color:rgb(123,33,111); */
+    background-color:#E1F7F5;
+}
+#headingOne{
+    color:chocolate;
+}
+#headingTwo{
+    color:tomato;
+}
+.top{
+    color:rgb(220, 127, 20)
+}

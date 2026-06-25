@@ -1,0 +1,27 @@
+div{
+    height: 100px;
+    width:100px;
+    border-width:11px;
+    border-color:blue;
+    border-style:solid;
+}
+p{
+    height:100px;
+    width:400px;
+    border-color:green;
+    border-width:12px;
+    border-style:solid;
+    background-color:red;
+}
+h1{
+    border-style:dotted;
+    border-width:4px;
+    border-color:red;
+    text-decoration:var(100px);
+    text-align:center;
+    background-color:bisque;
+    height:150px;
+    width:300px;
+    border-radius:50%;
+    padding-top:100px;
+}
