@@ -37,4 +37,28 @@ function abcd(...val)
    console.log(val);
 }
 
-abcd(1,2,3,4,5,6);
+abcd(1,2,3,4,5,6);   
+
+
+//example of fat arrow function
+let multiply=(a,b)=>{
+    return a*b;
+};
+   
+
+
+function sayHi(name="Guest")
+{
+    console.log("Hi",name);
+}
+sayHi();
+
+
+
+//example of rest operator
+
+function abcd(a,b,c,...val)
+{
+    console.log(a,b,c,val);
+}
+abcd(1,2,3,4,5,6)
