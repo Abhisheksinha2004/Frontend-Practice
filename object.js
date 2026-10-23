@@ -59,3 +59,29 @@ obj3.address.city="Indore";
 
  console.log(obj3);
  console.log(user);
+
+ const user1={
+    "first-name":"Abhishek",
+
+ };
+//  console.log(user1.first-name);
+
+console.log(user1["first-name"]);
+
+//Q. Destructure the key "first-name" as a variable called firstName.
+let{"first-name":firstName}=user1;
+console.log(firstName);
+
+// Q. Deep clone the object1 safely,
+const object1={
+    info:
+    {
+        score:80,
+    }
+};
+
+let newobj=JSON.parse(JSON.stringify(object1));
+
+newobj.info.score=100;
+console.log(newobj);
+console.log(object1);
