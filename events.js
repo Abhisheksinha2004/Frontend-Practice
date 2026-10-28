@@ -55,3 +55,20 @@ sel.addEventListener("change",function(dets)
 {
     device.textContent="Device selected";
 })
+
+h1=document.querySelector("h1");
+h1.insertAdjacentHTML("beforebegin","<h1>Abhishek</h1>");
+
+setTimeout(function(){
+    alert("virtual code")
+},3000)
+
+setTimeout(function() {
+    console.log("Hello Abhishek!");
+}, 3000);
+
+let sci=()=>{
+    alert("Wlecome back")
+}
+setInterval(sci,4000);
+
